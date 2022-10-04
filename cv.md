@@ -10,7 +10,7 @@
 I am a lifelong learner with a high capacity for self-education. I have proven myself to be motivated, engaged, and thoughtful, with experience in extracting insight from a range of sources, including big sets of data, presenting key takeouts in both accessible and academic forms. Highly educated, possessing a Bachelor’s, two Master’s, the latter of which involved heavily working with digital data.
 
 ## Technical (IT) skills
-+ **HTML**, **CSS** and **JS** skills, obtained at the Rolling Scopes School JS / Front-end Stage 0 (RU) and at the Rolling Scopes School JS / Front-end Stages 1 and 2 (EN)
++ **HTML**, **CSS** and **JS** skills, obtained at the Rolling Scopes School JS / Front-end Stage 0 (RU) and at the Rolling Scopes School JS / Front-end Stages 1 and 2 (EN). Completed 136 Kata on Codewars, achieving 6 kuy.
 + **SQL** (Introductory course from Datacamp, [certificate link](https://www.datacamp.com/statement-of-accomplishment/course/ff06b0af475d1e8358ef049165bec7043778a099))
 + **Python** (Introductory course from Stepik, [certificate link](https://stepik.org/cert/1027555))
 + **Bash** (Introductory course from Datacamp, [certificate link](https://www.datacamp.com/statement-of-accomplishment/course/ba0db75f898f46bed022907060a131ff4f6f003a))
@@ -45,12 +45,11 @@ for (let i = 0; i < array.length; i++) {
 
 ## Work experience
 ### ‘New Site’ web studio (Bitrix24 CRM)
-I worked as a content manager at ‘New Site’ web design studio for three years (2010 - 2013) when I was a student. This job taught me to have a keen eye for detail and to always familiarise myself with the specifics of the work. This was one of several moments over my professional and academic career, that I was interacting with the ICT world and I found great pleasure in having this experience. Being a student at the time I had to multitask and effectively set my own priorities while working there.
+I worked as a content manager at ‘New Site’ web design studio for three years (2010 - 2013) when I was a student. This job taught me to have a keen eye for detail and to always familiarize myself with the specifics of the work. This was one of several moments over my professional and academic career, that I was interacting with the ICT world and I found great pleasure in having this experience. Being a student at the time I had to multitask and effectively set my own priorities while working there.
 
 ### Minsk urban platform
-I founded this organisation around the time I finished my BA, in 2014, performing the roles of project manager, urban planning, and design coordinator.
-After spending several years in urban planning I have grown more and more fascinated with the promise of digital data analysis. I dedicated the last project with an urban NGO I helped co-found to digital data analysis exploring post-Soviet large housing estates.
-As the off-shot of Minsk urban platform in 2020 I co-founded ‘Minsk urban data research group’. We used Google Maps grocery ratings to see if ill-rated shops can point at socially weaker areas of Minsk. Using data from 115.bel public utility integrator (Belarusian 19115.pl) we explored if the services in the field are provided equally good across the city.
+I founded this organization around the time I finished my BA, in 2014, performing the roles of project manager, urban planning, and design coordinator. After spending several years in urban planning I have grown more and more fascinated with the promise of digital data analysis. I dedicated the last project with an urban NGO I helped co-found to digital data analysis exploring post-Soviet large housing estates.
+As the off-shot of Minsk urban platform in 2020 I co-founded ‘Minsk urban data research group’. We used Google Maps grocery ratings to see if ill-rated shops can point at socially weaker areas of Minsk. Using data from 115.bel public utility integrator (Belarusian 19115.pl) we explored if the services in the field are provided equally good across the whole city.
 
 ### Open data community
 Working on the topic of digital data analysis involved making sense of records numbering in hundreds of thousands and led to an ongoing collaboration with the Opendata.by platform (text only available in Russian). This collaboration helped me hone my skills of building new constructive and cooperative working relationships with others, as well as maintaining them over time in the context of remote work, forced on us by the COVID-19 pandemic.
