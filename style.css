@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-size: 12px;
+}
+
+html {
+    font-family: Poppins, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    /* font-weight: 900; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%; 
+    margin: 0 auto;
+} 
+
+.navigation {
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    height: 50px;
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-item a {
+    color: white;
+    text-decoration: none;  
+    transition: color 0.5s;
+}   
+
+.navigation-item a:hover {
+    color: lightgrey;
+} 
+
+.navigation-link {
+    /* padding: 0 20px; */
+    line-height: 50px;
+    transition: .3s;
+}
+
+.logo__link {
+    height: 30px;   
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-contents {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.skills, .code, .experience, .education, .languages, .contacts  {
+    width: 47%;
+    border-radius: 5px;
+    border: 3px solid red;
+    border-right-width: ;
+    padding: 10px;
+    margin: 10px;
+    border-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59) 5;
+}
+
+.footer-navigation {
+    color: black;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+}
+
+footer a{
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
