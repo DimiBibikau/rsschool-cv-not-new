@@ -17,7 +17,6 @@
         <div class="wrapper">
             <nav class="navigation">
                 <ul class="navigation-list">
-                    <!-- <li class="navigation-item"><a href="#profile" class="navigation-link">Profile</a></li> -->
                     <li class="navigation-item"><a href="#about" class="navigation-link">About me</a></li>
                     <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
                     <li class="navigation-item"><a href="#skills" class="navigation-link">Skills</a></li>
@@ -37,9 +36,7 @@
                     <h1>Dzmitry Bibikau</h1>
                     <h3>Junior Front-end developer</h3>
                     <div class="about">
-                        <p>
-                            I am a lifelong learner with a high capacity for self-education. <br> I have proven myself to be motivated, engaged, and thoughtful.
-                        </p>
+                        <p>I am a lifelong learner with a high capacity for self-education. <br> I have proven myself to be motivated, engaged, and thoughtful.</p>
                     </div>
                 </div>
             </section>
@@ -80,7 +77,16 @@
                     <p>7 kyu Maximum Triplet Sum kata from CodeWars</p>
                     <pre>
                         <code>
-                            p { font-size: 16px; line-height: 26px; }
+                            function maxTriSum(array){
+                                array.sort(function (a, b) {
+                                    return (b - a)
+                                });
+                                let sum = 0
+                                let counter = 0
+                                return sum;
+                            }
+                        </code>
+                        <code>
                         </code>
                     </pre>
                 </div>
@@ -103,19 +109,19 @@
                     <h3>Education and training</h3>
                     <ul>
                         <li>
-                            2021 - 2022 JS / Front-end. Stage 0 (RU) from Rolling Scopes School
+                            <p>2021 - 2022 JS / Front-end. Stage 0 (RU) from Rolling Scopes School</p>
                         </li>
                         <li>
-                            2022 JS / Front-end. Stage 1 and 2 (EN) from Rolling Scopes School
+                            <p>2022 JS / Front-end. Stage 1 and 2 (EN) from Rolling Scopes School</p>
                         </li>
                         <li>
-                            2017 / 2021 MSc in Spatial Planning and Regional Studies from EUROREG, University of Warsaw
+                            <p>MSc in Spatial Planning and Regional Studies from EUROREG, University of Warsaw</p>
                         </li>
                         <li>
-                            2014 / 2015 MSc in Architecture and Urban planning from Belarusian National Technical University
+                            <p>MSc in Architecture and Urban planning from Belarusian National Technical University</p>
                         </li>
                         <li>
-                            2008 / 2014 BA in Architecture and Urban planning from Belarusian National Technical University
+                            <p>BA in Architecture and Urban planning from Belarusian National Technical University</p>
                         </li>
                     </ul>
                 </div>
