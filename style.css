@@ -24,12 +24,12 @@ body {
 .wrapper {
     max-width: 960px; 
     margin: 0 auto;
-    border: 1px solid red;
 } 
 
-.header {
+.header ul{
     /* display: flex;
     justify-content: space-around; */
+    list-style: none;
 }
 
 .navigation {
@@ -76,24 +76,28 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
 }
 
 .cv-contents {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.about, .skills, .code, .experience, .education, .languages, .contacts  {
+.skills, .code, .experience, .education, .languages, .contacts  {
     width: 45%;
     border-radius: 5px;
     border: 3px solid red;
+    padding: 10px;
+    margin: 10px;
 }
 
-.contents {
-
-}
 .footer-navigation {
     color: black;
     height: 50px;
