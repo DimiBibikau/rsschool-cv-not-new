@@ -22,20 +22,13 @@ body {
 }
 
 .wrapper {
-    max-width: 960px; 
+    width: 100%; 
     margin: 0 auto;
 } 
-
-.header ul{
-    /* display: flex;
-    justify-content: space-around; */
-    list-style: none;
-}
 
 .navigation {
     background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
     height: 50px;
-    border-radius: 5px;
 }
 
 .navigation-list {
@@ -62,8 +55,7 @@ body {
 }
 
 .logo__link {
-    height: 50px;   
-    width: 100px;
+    height: 30px;   
 }
 
 .profile-pic {
@@ -88,14 +80,18 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .skills, .code, .experience, .education, .languages, .contacts  {
-    width: 45%;
+    width: 47%;
     border-radius: 5px;
     border: 3px solid red;
+    border-right-width: ;
     padding: 10px;
     margin: 10px;
+    border-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59) 5;
 }
 
 .footer-navigation {
@@ -105,8 +101,17 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+}
+
+footer a{
+    color: white;
 }
 
 footer a {
-    color: black;
+    color: white;
+}
+
+footer p {
+    color: white;
 }
