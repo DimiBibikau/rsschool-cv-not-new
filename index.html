@@ -84,18 +84,7 @@
                             function maxTriSum(array){
                                 array.sort(function (a, b) {
                                     return (b - a)
-                                });
-                                let sum = 0
-                                let counter = 0
-                                for (let i = 0; i &lt; array.length; i++) {
-                                if (array[i] &gt; array [i + 1] & counter &lt; 3) {
-                                    sum += array[i]
-                                    counter ++
-                                } else if ( i === array.length - 1 & counter &lt; 3) {
-                                    sum += array[i]
-                                }
-                                }
-                                return sum;
+                                })
                             }
                         </code>
                         <code>
