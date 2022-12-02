@@ -76,13 +76,13 @@ body {
     flex-direction: column;
 }
 
-.cv-contents {
+/* .cv-contents {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
-}
+} */
 
 .skills, .code, .experience, .education, .languages, .contacts  {
     width: 47%;
