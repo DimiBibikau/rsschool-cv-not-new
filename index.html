@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzmitry Bibikau CV</title>
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="icon" href="./files/svg/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-item"><a href="#about" class="navigation-link">About me</a></li>
+                    <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts</a></li>
+                    <li class="navigation-item"><a href="#skills" class="navigation-link">Skills</a></li>
+                    <li class="navigation-item"><a href="#code" class="navigation-link">Coding</a></li>
+                    <li class="navigation-item"><a href="#experience" class="navigation-link">Experience</a></li>
+                    <li class="navigation-item"><a href="#education" class="navigation-link">Education</a></li>
+                    <li class="navigation-item"><a href="#languages" class="navigation-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <section class="intro">
+                <img src="./files/images/profile-pic.jpg" alt="profile-pic" class="profile-pic">
+                <div class="about" id="about">
+                    <h1>Dzmitry Bibikau</h1>
+                    <h3>Junior Front-end developer</h3>
+                    <div class="about">
+                        <p>I am a lifelong learner with a high capacity for self-education. <br> I have proven myself to be motivated, engaged, and thoughtful.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="cv-contents">
+                <div class="contacts" id="contacts">
+                    <h3>Contacts</h3>
+                    <ul>
+                        <li>
+                            <a href="mailto:dmitry.bibikov@gmail.com">dmitry.bibikov@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+48234567890">+48234567890</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/dzmitry-bibikau-46859686/">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills" id="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>
+                            <h4>Web:</h4>
+                            <p>HTML, CSS and JavaScript</p>
+                        </li>
+                        <li>
+                            <h4>Version control:</h4>
+                            <p>Git, GitHub</p>
+                        </li>
+                        <li>
+                            <h4>Other IT Skills:</h4>
+                            <p>SQL, Python, BigQuery, Bash</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="code" id="code">
+                    <h3>Code sample</h3>
+                    <p>7 kyu Maximum Triplet Sum kata from CodeWars</p>
+                    <pre>
+                        <code>
+                            function maxTriSum(array){
+                                array.sort(function (a, b) {
+                                    return (b - a)
+                                });
+                                let sum = 0
+                                let counter = 0
+                                return sum;
+                            }
+                        </code>
+                        <code>
+                        </code>
+                    </pre>
+                </div>
+                <div class="experience" id="experience">
+                    <h3>Experience</h3>
+                    <h4>New Site web studio (Bitrix24 CRM)</h4>
+                    <p>
+                        I worked as a content manager at New Site web design studio for three years (2010 - 2013) when I was a student. This job taught me to have a keen eye for detail and to always familiarize myself with the specifics of the work.
+                    </p>
+                    <h4>Minsk urban platform</h4>
+                    <p>
+                        I founded this organization around the time I finished my BA, in 2014, performing the roles of project manager, urban planning, and design coordinator. After spending several years in urban planning I have grown more and more fascinated with the promise of digital data analysis. I dedicated the last project with an urban NGO I helped co-found to digital data analysis exploring post-Soviet large housing estates.
+                    </p>
+                    <h4>Open data community</h4>
+                    <p>
+                        Working on the topic of digital data analysis involved making sense of records numbering in hundreds of thousands and led to an ongoing collaboration with the Opendata.by platform (text only available in Russian).
+                    </p>
+                </div>
+                <div class="education" id="education">
+                    <h3>Education and training</h3>
+                    <ul>
+                        <li>
+                            <p>2021 - 2022 JS / Front-end. Stage 0 (RU) from Rolling Scopes School</p>
+                        </li>
+                        <li>
+                            <p>2022 JS / Front-end. Stage 1 and 2 (EN) from Rolling Scopes School</p>
+                        </li>
+                        <li>
+                            <p>MSc in Spatial Planning and Regional Studies from EUROREG, University of Warsaw</p>
+                        </li>
+                        <li>
+                            <p>MSc in Architecture and Urban planning from Belarusian National Technical University</p>
+                        </li>
+                        <li>
+                            <p>BA in Architecture and Urban planning from Belarusian National Technical University</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="languages" id="languages">
+                    <h3>Spoken languages</h3>
+                    <ul>
+                        <li>English (C2 - IELTS, CAE)</li>
+                        <li>Polish (C1)</li>
+                        <li>German (B2)</li>
+                        <li>Russian, Belarusian (native)</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-navigation">
+                <a href="https://github.com/DimiBibikau" class="navigation_link">DimiBibikau</a>
+                <p class="navigation_link">17/10/2022</p>
+                <a href="https://rs.school/js-en/" class="logo__link"><img src="./files/svg/rss.svg" class="navigation_link logo__link" alt="rs-logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
