@@ -1,2 +1,3 @@
-https://DimiBibikau.github.io/rsschool-cv/
+https://DimiBibikau.github.io/rsschool-cv-not-new
+/
 
